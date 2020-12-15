@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using System.Linq;
 
 public class hareket : MonoBehaviour
 {
@@ -60,10 +59,6 @@ public class hareket : MonoBehaviour
     {
     return Math.PI * angle / 180.0;
     }
-    void adim(){
-        pos.y+=speed*Time.deltaTime*(0.25f);
-        
-        pos.y-=speed*Time.deltaTime*(0.25f);
-    }
+   
    
 }
